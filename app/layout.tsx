@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "(ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Capybaraaaa",
@@ -15,10 +16,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="vi">
-      <body>{children}</body>
-
+      <body>
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
       <Toaster position="top-center" reverseOrder={false} />
-      <Analytics />
     </html>
   );
 }
