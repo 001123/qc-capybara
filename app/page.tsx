@@ -18,6 +18,7 @@ export default async function Home() {
               title="Bấm để truy cập"
               className="text-blue-500 font-semibold"
               href="https://www.facebook.com/buikhuongduy.t2"
+              target="_blank"
             >
               👉 Bùi Khương Duy
             </a>
@@ -28,6 +29,7 @@ export default async function Home() {
               title="Bấm để truy cập"
               className="text-blue-500 font-semibold"
               href="https://www.notion.so/khuongduy1897/Testing-Notes-1a70128c1ee580709dc3d3b67cdfac87?pvs=4"
+              target="_blank"
             >
               📝 Testing - Notes
             </a>
