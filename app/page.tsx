@@ -54,7 +54,7 @@ export default async function Home() {
                   </div>
                 )}
                 <Image
-                  src={`/capy/${getRandomInt(1, 7)}.jpg`}
+                  src={`/capy/${getRandomInt(1, 15)}.jpg`}
                   alt={capy.name}
                   width={300}
                   height={200}
