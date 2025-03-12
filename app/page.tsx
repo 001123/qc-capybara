@@ -35,7 +35,7 @@ export default async function Home() {
             </a>
           </h2>
           <div className="text-center">
-            Các tính năng vẫn đang trong giải đoạn phát triển ^.^
+            Các tính năng vẫn đang trong giai đoạn phát triển ^.^
           </div>
         </div>
       </div>
